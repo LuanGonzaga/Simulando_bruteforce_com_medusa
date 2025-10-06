@@ -223,18 +223,3 @@ gantt
     Sanitizar evidências     :crit,    san,  after smb, 1d
     Commit & Relatório       :         doc,  after san, 1d
 ```
-
-### 2) Gráfico SVG embutido (barra simples)
-
-Abaixo há um pequeno gráfico SVG embutido que mostra, como exemplo, o número relativo de tentativas/resultados por serviço (dados fictícios — ajuste conforme suas evidências):
-
-<img alt="Gráfico de tentativas" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='700' height='220' viewBox='0 0 700 220'><style>.t{font-family:Arial,Helvetica,sans-serif;font-size:12px;fill:#333}</style><rect width='700' height='220' rx='8' fill='%23f8fafc'/><text x='24' y='28' class='t' font-size='16' font-weight='700'>Resumo de tentativas por serviço (exemplo)</text><g transform='translate(60,50)'><rect x='0' y='0' width='520' height='120' fill='%23ffffff' stroke='%23e6eef6' rx='6'/><g><text x='0' y='20' class='t'>FTP</text><rect x='60' y='6' width='360' height='18' rx='4' fill='%2341a3ff'/><text x='430' y='20' class='t'>360 tentativas</text></g><g transform='translate(0,34)'><text x='0' y='20' class='t'>SMB</text><rect x='60' y='6' width='180' height='18' rx='4' fill='%23ffa94d'/><text x='430' y='20' class='t'>180 tentativas</text></g><g transform='translate(0,68)'><text x='0' y='20' class='t'>Serviço X</text><rect x='60' y='6' width='60' height='18' rx='4' fill='%23ff6b6b'/><text x='430' y='20' class='t'>60 tentativas</text></g><g transform='translate(0,102)'><text x='0' y='20' class='t'>Credenciais válidas</text><rect x='120' y='6' width='30' height='18' rx='4' fill='%2326c281'/><text x='430' y='20' class='t'>1 encontrada</text></g></g></svg>"/>
-
-> Observações:
->
-> * O gráfico SVG acima é apenas ilustrativo. Substitua os valores pelas contagens reais antes de commitar (ou gere imagens na pasta `images/` e referencie-as).
-> * Se preferir gráficos gerados automaticamente, posso criar scripts (Python/matplotlib) que leiam os logs em `commands/` e gerem PNG/SVG para colocar em `images/`.
-
----
-
-*
