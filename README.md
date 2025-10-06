@@ -206,7 +206,7 @@ Se quiser contribuir ao repositório:
 
 Para tornar o README mais atrativo, adicionei duas opções de visualização que podem ser exibidas no GitHub:
 
-### 1) Gráfico em Mermaid (renderizável quando o repositório habilitar Mermaid)
+### 1) Gráfico em Mermaid
 
 ```mermaid
 gantt
